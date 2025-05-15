@@ -5,11 +5,11 @@ import openai
 st.title("💬 Chatbot")
 st.write(
     "This is a simple chatbot using OpenAI's GPT-3.5 model. "
-    "Enter your API key to get started. Get it [here](https://platform.openai.com/account/api-keys)."
+    "A"
 )
 
 # API Key Input
-openai_api_key = st.text_input("OpenAI API Key", type="password")
+openai_api_key = st.text_input("", type="password")
 if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 else:
